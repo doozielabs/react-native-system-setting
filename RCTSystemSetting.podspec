@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source_files    = 'ios/*.{h,m}'
   s.preserve_paths  = "**/*.js"
 
-  s.xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) COCOAPODS=1 PRIVATE_API' }
+  s.xcconfig = {'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) COCOAPODS=1' }
 
   s.dependency 'React'
 end
